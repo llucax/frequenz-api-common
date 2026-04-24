@@ -1,15 +1,1 @@
-[
-  {
-    "version": "next",
-    "title": "next",
-    "aliases": []
-  },
-  {
-    "version": "v0.0-dev",
-    "title": "v0.0-dev (2e36bdc)",
-    "aliases": [
-      "v0-dev",
-      "latest-dev"
-    ]
-  }
-]
+[{"version":"next","title":"next","aliases":[]},{"version":"v0.0-dev","title":"v0.0-dev (2e36bdc)","aliases":["v0-dev","latest-dev"]}]
