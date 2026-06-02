@@ -86,7 +86,7 @@ jobs:
           echo "Updated dependencies JSON:"
           echo "$UPDATED_DEPENDENCIES_JSON" | jq -C .
       - name: Migrate
-        uses: frequenz-floss/gh-action-dependabot-migrate@45994e185a9040449304a470e8f02d0e197873b4  # v1.1.1
+        uses: frequenz-floss/gh-action-dependabot-migrate@eb100d3cf732b4808a7776eee8f303521efd494b  # v1.2.1
         env:
           UPDATED_DEPENDENCIES_JSON: ${{ steps.dependabot-metadata.outputs.updated-dependencies-json }}
         with:
