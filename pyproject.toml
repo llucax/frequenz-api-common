@@ -79,7 +79,7 @@ dev-pylint = [
   "frequenz-api-common[dev-mkdocs,dev-noxfile,dev-pytest]",
 ]
 dev-pytest = [
-  "pytest == 9.0.3",
+  "pytest == 9.1.0",
   "frequenz-repo-config[extra-lint-examples] == 0.18.0",
 ]
 dev = [
